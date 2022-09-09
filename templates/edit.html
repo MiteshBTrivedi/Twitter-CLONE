@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% block content %} {% load static %}
+
+<section class="content"><div class ='edit_content'>
+  <section class="post_form">
+   <form id = "action" action="/edit/{{post.id}}/" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input id ="name"type="text" name="name" placeholder="Name" value="{{ post.name }}"><br>
+    <input type="textarea"  name="body"  placeholder="Write Anything" value="{{ post.body }}"><br><br>
+    <img class="edit-image" src="{{post.image.url}}"><br>
+    <input class="upload-file" type ="file" value="Post" name = "image">
+    <input id = 'Edit' type="submit" value="Update">
+    <a id = 'Edit' href="/" class="btn btn-gray">Cancel</a>
+
+
+   </form>
+  </div>
+  
+</section>
+  <section class="posts">
+   <ul> 
+    {% for post in posts %}
+    
+    {% endfor %}
+
+   </ul>
+  </section>
+</section> 
+ {% endblock %}

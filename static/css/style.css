@@ -1,0 +1,187 @@
+/*
+common
+**************************/
+html body{
+    height: 100%;
+}
+.post_form{
+    padding: 20px 40px;
+    border-bottom: 1px solid#ccc;
+}
+.post_form .input{
+    /* width: 60%;
+    margin-bottom: 10px;
+    padding:10px ;
+    border-bottom: 1px solid#ccc; */
+    border: 0px;
+    width: 100%;
+    background: #e6fef7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.post_form textarea{
+    /* width: 64%;
+    border-bottom: 1px solid#ccc; */
+    border: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+}
+img.Image {
+     width: 300px;
+}
+img.edit-image{
+width: 50%;
+border-radius: 10px;
+margin-bottom: 15px;
+border: 1px solid rgb(197, 199, 201);
+}
+img.edit-file{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.post_form input #action{
+    width :20px
+}
+#Edit{
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    width: 77px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#name{
+    border: 0px;
+    width: 60%;
+    background: #e6fef7;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#cancel{
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    display: inline-flex;
+}
+.posts li .menu_icon{
+    width: 20px;
+    position: absolute;
+    right: 30px;
+    top:18px;
+    display: flex;
+
+}
+.posts li .menu{
+    display: grid;
+    position:absolute;
+    top : 40px;
+    right: 15px;
+    border:1px solid #ccc;
+    background-color: #ccc;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 3px;
+   
+
+}
+img#heart{
+    width: 30px;
+}
+.posts li.menu a {
+    text-decoration: none;
+}
+
+
+.content{
+    max-width: 600px;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid#ccc;
+    border-right: 1px solid#ccc;
+}
+.posts li{
+    display: flex;
+    border-bottom: 1px solid#ccc;
+    padding: 18px;
+    position: relative;
+}
+.content .main-header {
+    display: flex;
+    width: 100%;
+    gap: 4%;
+  }
+  .main-header img {
+    width: 50px;
+    height: 100%;
+    padding: 10px;
+    margin-right: 8px;
+  }
+.posts ul{
+    padding: 1px;
+}
+.primary img {
+    border-radius: 50%;
+    width: 50px;
+    padding: 10;
+    margin-right: 20px;
+  }
+
+.posts li .logo{
+    flex-basis: 15%;
+
+}
+.posts li .logo img{
+    width: 55%;
+}
+.posts li .name_body .name{
+    font-weight: bold;
+}
+.posts li .name_body .datetime{
+    color:gray;
+}
+
+
+input.upload-file {
+    border: 1px solid black;
+    padding: 7px;
+}
+input[type="textarea"] {
+    width: 63%;
+    padding-bottom: 10%;
+    border: none;
+    background: #fbfbfb;
+}
+@media screen and (max-width : 500px){
+    .posts .li .name_body  .name{
+        font-size: 20px;
+    }
+}
+
+
+
+/*
+post
+**************************/
