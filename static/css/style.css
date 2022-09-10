@@ -130,14 +130,15 @@ img#heart{
 }
 .content .main-header {
     display: flex;
-    width: 100%;
-    gap: 4%;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+    padding: 10px;
   }
   .main-header img {
     width: 50px;
     height: 100%;
-    padding: 10px;
-    margin-right: 8px;
+    padding-right: 10px;
+  
   }
 .posts ul{
     padding: 1px;
@@ -167,6 +168,7 @@ img#heart{
 input.upload-file {
     border: 1px solid black;
     padding: 7px;
+    width: 45%;
 }
 input[type="textarea"] {
     width: 63%;
